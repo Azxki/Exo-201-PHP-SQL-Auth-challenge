@@ -1,6 +1,6 @@
 <?php
 
-$password_en_clair = "Entrez umot de passe dans cette chaine";
+$password_en_clair = "root";
 
 // Affichage du mot de passe crypté.
 $encrypted = password_hash($password_en_clair, PASSWORD_BCRYPT);
